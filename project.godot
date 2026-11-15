@@ -1,0 +1,9 @@
+; G-Commons project shell. Keep project-wide decisions minimal.
+config_version=5
+
+[application]
+config/name="G-Commons"
+config/description="Reusable Godot game-development systems and framework foundations."
+run/main_scene="res://examples/bootstrap/main.tscn"
+
+; Renderer intentionally not pinned during bootstrap.
